@@ -9,7 +9,7 @@ let Reach= new Promise((resolve,reject) => {
         reject()
 })
 
-//promise is an object
+//promise is an object.
 
 Reach.then(()=> console.log("Reached"))
 .catch(()=>console.log('Not Reached'))
